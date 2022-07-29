@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+body {
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.tech-bg-primary {
+    background-color: #289BDE;
+}
+
+.tech-bg-secondary {
+    background-color: #F4FAFD;
+}
+
+.carousel-item {
+    transition: transform 1s ease;
+}
+
+.bg-image-dark img {
+    filter: brightness(50%)
+}
+
+.testimonial-prev-button,
+.testimonial-next-button {
+    width: 4%;
+    height: 13%;
+    top: 50%;
+}
+
+.testimonial-prev-button {
+    left: -2%;
+}
+
+.testimonial-next-button {
+    left: 98%;
+}
+
+@media only screen and (max-width:992px) {
+    .carousel-item img {
+        height: 100vh;
+        object-fit: cover;
+    }
+}
